@@ -53,7 +53,7 @@ const Quiz = () => {
     }
   }
   return (
-    <div className='bg-[#D0D2D4] h-full flex justify-center items-center dark:bg-slate-800'>
+    <div className='bg-[#D0D2D4] h-[100vh] flex justify-center items-center dark:bg-slate-800'>
       <div className='text-wrap h-[35.125rem] w-[43.75rem] bg-white rounded-xl m-5 shadow-xl flex justify-start gap-5 items-start p-10 flex-col dark:bg-[#1e1e1e] dark:text-white'>
         <div id='qContainer' className='w-[100%] pt-[1.25rem]'>
         <h1 className='mb-5'>{qnum} . {questionData[randomNumber].question}</h1>
