@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css'
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
-import Quiz from './Components/quiz';
+import Quiz from './Components/Quiz';
 import Developer from './Components/Developer';
 import Footer from './Components/Footer';
 
